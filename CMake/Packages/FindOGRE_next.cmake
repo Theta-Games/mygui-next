@@ -9,7 +9,7 @@ set(OGRE_NEXT ${DIR_ONE_ABOVE}/Ogre/ogre-next-static)
 #set(OGRE_NEXT "../Ogre/ogre-next")
 
 set(OGRE_CONFIG_INCLUDE_DIR ${OGRE_NEXT}/build/${CMAKE_BUILD_TYPE}/include)
-set(OGRE_INCLUDE_DIR "${OGRE_NEXT}/include/OGRE-next;${OGRE_NEXT}/include/OGRE-next/Hlms/Unlit;${OGRE_NEXT}/include/OGRE-next/Hlms/Pbs;${OGRE_NEXT}/include/OGRE-next/Hlms/Common")
+set(OGRE_INCLUDE_DIR "${OGRE_NEXT}/include/OGRE-Next;${OGRE_NEXT}/include/OGRE-Next/Hlms/Unlit;${OGRE_NEXT}/include/OGRE-Next/Hlms/Pbs;${OGRE_NEXT}/include/OGRE-Next/Hlms/Common")
 set(OGRE_LIBRARIES ${OGRE_NEXT}/build/${CMAKE_BUILD_TYPE}/lib/libOgreMain.so.3.0)
 set(OGRE_LIB_DIR ${OGRE_NEXT}/build/${CMAKE_BUILD_TYPE}/lib)
 
